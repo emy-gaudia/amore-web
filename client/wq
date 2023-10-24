@@ -1,0 +1,29 @@
+[33mcommit bc842520eec12f2630172555dcf8ce9142202c84[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m, [m[1;31morigin/develop[m[33m)[m
+Author: Jessica Zarate <jeca.zarate.up@phinmaed.com>
+Date:   Wed Sep 6 23:58:02 2023 +0800
+
+    Second Commit in Develop Branch
+
+[33mcommit cbbedcc0f522d6ca7734daf8d21a557fed9d6393[m
+Author: Jessica Zarate <jeca.zarate.up@phinmaed.com>
+Date:   Wed Sep 6 23:21:01 2023 +0800
+
+    First Commit in Develop Branch
+
+[33mcommit 4f6fbf2fe263ade844401d9f3da0a827a1b4be72[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Jessica Zarate <jeca.zarate.up@phinmaed.com>
+Date:   Wed Sep 6 21:28:19 2023 +0800
+
+    Initial Clean in Develop Branch
+
+[33mcommit 981e6d628bd4b490e8a20846727bf34a1f443d1a[m
+Author: Jessica Zarate <jeca.zarate.up@phinmaed.com>
+Date:   Wed Sep 6 21:00:35 2023 +0800
+
+    First Commit
+
+[33mcommit 6b97105a7857914a7e7a9b025b2adf4d88371dfc[m
+Author: Jessica Zarate <jeca.zarate.up@phinmaed.com>
+Date:   Wed Sep 6 20:26:28 2023 +0800
+
+    Initialize project using Create React App

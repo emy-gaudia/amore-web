@@ -1,0 +1,213 @@
+.signup_main {
+  place-items: center center;
+  place-content: center center;
+  min-height: 100vh;
+}
+.signup_bg {
+  position: fixed;
+  width: 25rem;
+  right: 0;
+  bottom: 0;
+}
+
+.form_signup-error {
+  position: absolute;
+  bottom: -2rem;
+}
+
+.signup_main .container {
+  width: fit-content;
+  height: fit-content;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 1.8rem;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  z-index: 9999;
+  position: relative;
+  margin-top: 100px;
+}
+.signup_color {
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  background: #fdeef4;
+  border-top-left-radius: 1.5625rem;
+  border-bottom-left-radius: 1.5625rem;
+}
+.signup_main .heading_signup {
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 2rem 0;
+  gap: 3rem;
+  background: none;
+  z-index: 999;
+}
+.signup_main .heading_signup img {
+  width: 80%;
+}
+
+.signup_main .heading_signup h1 {
+  color: #df1463;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.signup_main .heading_signup h3 {
+  color: #22172a;
+  text-align: center;
+  font-family: Segoe Print;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.signup_main .form_signup {
+  flex-direction: column;
+  padding: 2rem 0;
+  gap: 2rem;
+}
+.signup__terms, .signup h5 {
+  font-family: "Poppins";
+  font-size: 0.7rem;
+  color: #df1463;
+  display: flex;
+  gap: .5rem;
+  justify-content: center;
+}
+.signup.flex {
+  gap:.5rem;
+}
+
+.signup__terms span {
+  font-weight: 700;
+}
+.signup_main .form_signup h2 {
+  color: #df1463;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+.signup.flex{
+  justify-content: center;
+  margin-top: -2.5rem;
+}
+
+.signup_main .form_signup .inputs {
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  position: relative;
+  margin-top: 1rem;
+}
+input, select {
+  outline: none;
+  border: none;
+  width: 20rem;
+  font-size: 1rem;
+  font-family: "Poppins";
+  line-height: 100%;
+  text-indent: 1rem;
+  border-radius: 0.3rem;
+  border-bottom: 1.5px solid #df1463;
+    color: #df1463;
+
+  margin-bottom: -1.5px;
+  background: rgba(255, 122, 141, 0.05);
+  padding: 10px 30px;
+  z-index: 99999;
+
+  /* Drop Shadow */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+input::placeholder {
+  opacity: 0.45;
+  color: #df1463;
+}
+label input:focus {
+  background-color: #df146210;
+}
+label {
+  position: relative;
+}
+.signup_main .form_signup .inputs .user::before,
+.signup_main .form_signup .inputs .pass::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 12px;
+  bottom: 0;
+  width: 20px;
+  background-repeat: no-repeat;
+}
+.signup_main .form_signup .inputs .user::before {
+  background-image: url("../svg/user.svg");
+}
+.signup_main .form_signup .inputs .pass::before {
+  background-image: url("../svg/lock.svg");
+}
+
+input:focus {
+  border-bottom: 2px solid #df1463;
+  margin-bottom: -2px;
+  background: rgba(255, 122, 141, 0.05);
+
+  /* Drop Shadow */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.signup_main .form_signup button {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-family: "Poppins";
+  line-height: 150%;
+  padding: 0.5rem 2rem;
+  border-radius: 2.5rem;
+  color: #fff;
+  background: #df1463;
+  margin-top: 2.5rem;
+  cursor: pointer;
+}
+
+.signup_main .form_signup button:hover {
+  background: none;
+  color: #df1463;
+  outline: 2px solid #df1463;
+  font-weight: 600;
+}
+
+.signup_main .form_signup .inputs .signup {
+  flex-direction: rows;
+  gap: 0.5rem;
+}
+.signup_main .form_signup .inputs .signup h5 {
+  font-size: 0.7rem;
+  opacity: 0.5;
+  font-weight: 600;
+}
+.signup_main .form_signup .inputs .signup .signup-txt h5 {
+  color: #df1463;
+  opacity: 1;
+  line-height: 115%;
+  font-weight: 700;
+}
+
+.signup_main .form_signup .inputs .signup .signup-txt h5:hover::after {
+  content: "";
+  display: block;
+  width: 2.4rem;
+  height: 1.4px;
+  background-color: #df1463;
+}
+

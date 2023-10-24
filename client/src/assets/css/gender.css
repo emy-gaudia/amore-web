@@ -1,0 +1,143 @@
+.gender_main {
+  place-items: center center;
+  place-content: center center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.gender_main .container {
+  width: 60rem;
+  height: 30rem;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 1.5625rem;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  z-index: 9999;
+  position: relative;
+}
+
+.color {
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  background: #fdeef4;
+  border-top-left-radius: 1.5625rem;
+  border-bottom-left-radius: 1.5625rem;
+}
+
+.gender_main .heading_gender {
+  z-index: 9999;
+  flex-direction: column;
+  justify-content: start;
+  align-content: start;
+  justify-items: center;
+  align-items: center;
+  border-top-left-radius: 1.5625rem;
+  border-bottom-left-radius: 1.5625rem;
+  padding: 2rem 0;
+  gap: 0rem;
+}
+.gender_main .heading_gender img {
+  width: 30rem;
+  height: 20rem;
+  margin-top: 1rem;
+}
+
+.gender_main .heading_gender .headtxt {
+  z-index: 999;
+}
+
+.gender_main .heading_gender h1 {
+  color: #df1463;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.gender_main .heading_gender h3 {
+  color: #22172a;
+  text-align: center;
+  font-family: Segoe Print;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.gender_main .form_gender {
+  flex-direction: column;
+  padding: 2rem 0;
+  gap: 0.9rem;
+}
+
+.gender_main .form_gender .inputs {
+  flex-direction: rows;
+  gap: 2rem;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  height: 17rem;
+}
+
+.gender_main .form_gender .inputs img {
+  width: 9rem;
+}
+.gender_main .form_gender .inputs img:hover {
+  transform: scale(1.1);
+}
+
+.gender_main .form_gender h2 {
+  color: #df1463;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+.gender_main .form_gender .progress {
+  flex-direction: column;
+  padding: 0 2rem;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.gender_main .form_gender .progress-status .left {
+  margin-right: auto;
+}
+.gender_main .form_gender .progress-status .right {
+  cursor: pointer;
+}
+.gender_main .form_gender .progress-status .left h5 {
+  font-size: 1.2rem;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #ffbbc5;
+}
+.gender_main .form_gender .progress-status .left span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.gender_main .form_gender .progress-bar {
+  width: 100%;
+  height: 0.8rem;
+  background-color: rgba(255, 120, 140, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.gender_main .form_gender .progress-bar span {
+  width: 57.15%;
+  position: absolute;
+  top: 3.2px;
+  left: 3px;
+  height: 0.4rem;
+  align-self: center;
+  background-color: #df1463;
+  border-radius: 10px;
+}

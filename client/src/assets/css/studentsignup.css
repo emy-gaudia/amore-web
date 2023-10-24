@@ -1,0 +1,290 @@
+.student {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .student_color {
+    width: 70%;
+    height: 100vh;
+    position: absolute;
+    background: #fdeef4;
+    right: 0;
+    top: 0;
+  }
+  .student_intro {
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .student_intro img {
+    width: 110%;
+  }
+  
+  .student_intro h1 {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 100%;
+  }
+  .student_intro h3 {
+    color: #22172a;
+    text-align: center;
+    font-family: Segoe Print;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    width: 80%;
+  }
+  
+  .student_container {
+    z-index: 9;
+    width: 70%;
+    justify-content: center;
+    padding-top: 2rem;
+    overflow: scroll;
+  }
+  
+  .student_container {
+    padding: 3rem;
+  }
+  
+  .student_form h2 {
+    font-size: 2rem;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #df1463;
+  }
+  .student_form {
+    width: 100%;
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 3rem;
+    gap: 3rem;
+    width: 100%;
+  }
+  .student_form img {
+    width: 3rem;
+    align-self: flex-end;
+  }
+  
+  .inputfield {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 3rem;
+  }
+  .reverse-arrow {
+    transform: rotate(180deg);
+  }
+  .step-arrow {
+    display: flex;
+    width: 100%;
+    max-width: 50rem;
+    justify-content: space-around;
+  }
+  .inputfield label {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: -3px;
+    font-size: 1.1rem;
+    letter-spacing: -0.8px;
+    font-weight: 500;
+  }
+  .inputfield input,
+  .inputfield select,
+  .inputfield textarea {
+    max-width: 35rem;
+    width: 80%;
+    align-self: center;
+  }
+  
+  .studentpic,
+  .studentpic img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-image: url("../svg/avatar/avatar-default-girl.svg");
+    background-size: 10rem;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  .student_camcontent {
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+  }
+  
+  .studentpic {
+    outline: 5px solid #df1463;
+  }
+  
+  .studentcam {
+    background-color: #fdeef4;
+  }
+  .studentcam input {
+    display: none;
+  }
+  .studentcam {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-image: url("../svg/profilecam.svg");
+    background-size: 3rem;
+    background-repeat: no-repeat;
+    z-index: 9999;
+    position: absolute;
+    bottom: -0.4rem;
+    right: -0.4rem;
+  }
+  .student_divform {
+    width: 100%;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: start;
+  }
+  .student_detail {
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rmdp-input {
+    font-size: 1.1rem;
+    line-height: 150%;
+    border-radius: 0.5rem;
+    padding: 25px 30px;
+    border: none;
+    border-bottom: 1.5px solid #df1463;
+    margin-bottom: -1.5px;
+  }
+  
+  .rmdp-input:focus {
+    border: 1px solid #df1463;
+    border-bottom: 3px solid #df1463;
+    margin-bottom: -3px;
+  }
+  
+  .col1 {
+    flex-direction: row;
+    gap: 2rem;
+  }
+  
+  .signup-btn {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-family: "Poppins";
+    line-height: 150%;
+    padding: 1rem 2rem;
+    border-radius: 2.5rem;
+    color: #fff;
+    background: #df1463;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+  }
+  
+  .signup-btn:hover {
+    background: none;
+    color: #df1463;
+    outline: 2px solid #df1463;
+    font-weight: 600;
+  }
+  
+  /* =================== */
+  
+  .pill {
+    display: flex;
+    width: 10rem;
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.3rem;
+    font-size: 1rem;
+    color: #df1463;
+    border: 1.5px solid #df1463;
+    gap: 0.8rem;
+  }
+  
+  .pill input {
+    display: none;
+  }
+  
+  .pill-image img {
+    padding: 5px;
+    width: 2.5rem;
+  }
+  
+  .pill:hover,
+  label.pill.checked {
+    background-color: #df1463;
+    color: #fff;
+  }
+  
+  .interest-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .interest-form {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-bottom: 3rem;
+  }
+  
+  .interest-form h2 {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  .interest-form h2::before {
+    content: "You can only choose up to 5 interest";
+    color: #000;
+    font-size: 1rem;
+    position: absolute;
+    display: block;
+    font-weight: 500;
+    bottom: -2rem;
+    font-family: Segoe Print;
+  }
+  
+  .image-form input {
+    display: none;
+  }
+  
+  .image--container {
+    width: min(21.6875rem, 80vw);
+    height: min(450px, 90vw);
+    background-color: none;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='26' ry='26' stroke='%23DF1463FF' stroke-width='3' stroke-dasharray='19%2c 19%2c 24' stroke-dashoffset='34' stroke-linecap='round'/%3e%3c/svg%3e");
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0;
+  }
+  

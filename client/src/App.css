@@ -1,0 +1,170 @@
+/* google fonts Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inter&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: Segoe Print;
+  src: url("./assets/fonts/segoe-print/segoepr.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: linear-gradient(
+    270deg,
+    #ff5871 0%,
+    #ff657c 30.7%,
+    #ff6c82 60.03%,
+    #ff7e91 103.2%
+  );
+  font-family: "Poppins", "Segoe Print", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+pill {
+  display: inline-flex;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  border-radius: 3rem;
+  outline: 2.5px solid #df1463;
+  font-size: 0.9rem;
+  line-height: 100%;
+  font-family: "Poppins";
+  font-weight: 500;
+  cursor: pointer;
+}
+
+pill img {
+  width: 1rem;
+  height: 1.2rem;
+}
+
+pill:hover {
+  background-color: #df1463;
+  color: #fff;
+}
+
+sidebar {
+  display: flex;
+  position: absolute;
+  list-style: none;
+  left: 4rem;
+  height: 100vh;
+  align-items: center;
+}
+
+.sidebar_list {
+  display: flex;
+  position: absolute;
+  top: 5rem;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 0.65431rem;
+  background: linear-gradient(0deg, #fceaf1 0%, #fceaf1 100%), #fff;
+  box-shadow: 0px 4.18755px 4.18755px 0px rgba(0, 0, 0, 0.25);
+  padding: 3rem 1rem;
+}
+
+.navitem img {
+  width: 3.1rem;
+  height: 3.1rem;
+}
+
+.match--style h1{
+  font-size: 2.2rem;
+}
+.match--style{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+  min-height: 80vh;
+  justify-content: center;
+}
+
+.match--container ul{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.match--container h3{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.match--container p{
+  font-size: 1rem;
+  font-weight: 500;
+}
+.App{
+  overflow: scroll;
+  width: 100%;
+}
+.app--section, .app--form{
+  width: 60%;
+  margin-inline: auto;
+}
+
+.app--form{
+  display: flex;
+  position: fixed;
+  bottom: 10rem;
+  justify-content: center;
+}
+.app--form input{
+  flex: 1;
+  background-color: #fd99a8;
+}
+.app--form input:focus{
+  background-color: #fd99a8;
+  color: #3b1020;
+}
+.app--form button{
+  background-color: #a58b8b;
+  border-radius: 5px;
+  color: #3b1020;
+
+}
+
+.messages--chat{
+  width: 80%;
+}
+.messages--chat img{
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 2px solid #df1463;
+}
+
+.message--head{
+  display: flex;
+  align-items: center;
+}
+.message--head h1{
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: Segoe Print;
+}
+.messages--chat p{
+  text-indent: 5rem;
+  font-weight: 300;
+}

@@ -1,0 +1,80 @@
+.mainlayout{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 3rem;
+  height: 80vh;
+}
+
+.main_front {
+  margin: 0;
+  padding: 0;
+}
+.main_front::-webkit-scrollbar {
+  display: none;
+}
+
+.main_front .main_header {
+  position: relative;
+  width: 100%;
+  padding: 1.5rem 4rem;
+  place-items: center center;
+  gap: 0.8rem;
+}
+.main_front .main_header .logo h5 {
+  font-family: Segoe Print;
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 120%;
+}
+
+.main_front .main_header .logo {
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem;
+}
+.main_front .main_header .logo img {
+  width: 1.8rem;
+}
+.main_front .main_header .logo .txt {
+  font-size: 1.8rem;
+  line-height: 100%;
+}
+.main_front .main_header .logo .txt img {
+  position: absolute;
+  width: 5rem;
+}
+
+.header_filter,
+.header_profile,
+.header_notif {
+  width: 3.5rem;
+}
+
+.header_filter {
+  margin-left: auto;
+}
+
+
+.sidebar_container ul {
+  bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  padding: 12px 20px;
+  gap: 20px;
+  border-radius: 12px;
+  background-color: #fff;
+  list-style: none;
+  z-index: 99;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  color: #bab5b552;
+}
+::-webkit-scrollbar-thumb{
+  background: #df1463;
+  border-radius: 5px;
+}

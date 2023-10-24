@@ -1,0 +1,81 @@
+.front {
+  margin: 0;
+  padding: 0;
+}
+
+.front .header {
+  position: absolute;
+  padding: 1.5rem 4rem;
+  z-index: 999;
+}
+.front .header .logo {
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem;
+}
+.front .header .logo img {
+  width: 1.8rem;
+}
+.front .header .logo .txt {
+  font-size: 1.8rem;
+  line-height: 100%;
+}
+.front .header .logo .txt img {
+  position: absolute;
+  width: 5rem;
+}
+
+/* -----------------Breakpoints------------------------- */
+@media screen and (max-width: 1440px) {
+  .front .header {
+    padding: 2rem 4rem;
+  }
+  .front .header .logo {
+    gap: 0.7rem;
+  }
+  .front .header .logo img {
+    width: 2.5rem;
+  }
+  .front .header .logo .txt {
+    font-size: 2rem;
+  }
+  .front .header .logo .txt img {
+    width: 5.7rem;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .front .header {
+    padding: 1rem 2rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .front .header {
+    padding: 1rem 2rem;
+  }
+  .front .header .logo {
+    gap: 0.6rem;
+  }
+  .front .header .logo img {
+    width: 2.2rem;
+  }
+  .front .header .logo .txt {
+    font-size: 1.8rem;
+  }
+  .front .header .logo .txt img {
+    width: 5.2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+}
+/* For medium devices */
+@media screen and (max-width: 768px) {
+}
+/* For small-medium devices */
+@media screen and (max-width: 576px) {
+  .front .header {
+    padding: 0.8rem 1rem;
+  }
+}
+@media screen and (max-width: 425px) {
+}
+@media screen and (max-width: 375px) {
+}

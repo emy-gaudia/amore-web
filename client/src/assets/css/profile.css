@@ -1,0 +1,108 @@
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5rem;
+  padding: 20px;
+  gap: 20px;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+}
+.profilePic {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 5px solid #df1463;
+}
+.profile-form {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #ffffffa2;
+  border-radius: 2rem;
+  padding: 1.5rem 3rem;
+  align-items: center;
+  gap: 1rem;
+}
+.profile--container-content h1{
+  font-weight: 700;
+  font-size: 2rem;
+  color:#df1463;
+}
+.profile--container-content p{
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: -.5px;
+}
+.profile--container{
+  background-color: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 1.8rem;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+  overflow-y: scroll;
+}
+
+.profile--container-content{
+  display: flex;
+  gap:.5rem;
+  flex-direction: column;
+}
+
+.profile-form h4 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #df1463;
+}
+.profile-form input,.profile-form textarea {
+  width: 80%;
+}
+textarea::placeholder {
+  color: #df1463;
+  opacity: .5;
+  }
+.profile-form textarea {
+  height: 8rem;
+  resize: none;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-family: "Poppins";
+  line-height: 100%;
+  text-indent: 1rem;
+  border-radius: 0.3rem;
+  border-bottom: 1.5px solid #df1463;
+  margin-bottom: -1.5px;
+  background: rgba(255, 122, 141, 0.05);
+  padding: 10px 30px;
+  z-index: 99999;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.profile-form  button {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-family: "Poppins";
+  line-height: 150%;
+  padding: 0.5rem 2rem;
+  border-radius: 2.5rem;
+  color: #fff;
+  background: #df1463;
+  margin-top: 2.5rem;
+  cursor: pointer;
+}
+
+.profile-form  button:hover {
+  background: none;
+  color: #df1463;
+  outline: 2px solid #df1463;
+  font-weight: 600;
+}

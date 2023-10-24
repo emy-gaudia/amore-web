@@ -1,0 +1,143 @@
+.studentdata_main {
+  place-items: center center;
+  place-content: center center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.studentdata_main .container {
+  width: 60rem;
+  height: 30rem;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 1.5625rem;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  z-index: 9999;
+  position: relative;
+}
+
+.color {
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  background: #fdeef4;
+  border-top-left-radius: 1.5625rem;
+  border-bottom-left-radius: 1.5625rem;
+}
+.studentdata_main .heading_studentdata {
+  z-index: 9999;
+  flex-direction: column;
+  justify-content: start;
+  align-content: start;
+  justify-items: center;
+  align-items: center;
+  border-top-left-radius: 1.5625rem;
+  border-bottom-left-radius: 1.5625rem;
+  padding: 2rem 0;
+  gap: 0rem;
+}
+.studentdata_main .heading_studentdata img {
+  width: 30rem;
+  height: 21rem;
+  bottom: 3.7rem;
+}
+
+.studentdata_main .heading_studentdata .headtxt {
+  z-index: 999;
+}
+
+.studentdata_main .heading_studentdata h1 {
+  color: #df1463;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.studentdata_main .heading_studentdata h3 {
+  color: #22172a;
+  text-align: center;
+  font-family: Segoe Print;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.studentdata_main .form_studentdata {
+  flex-direction: column;
+  padding: 2rem 0;
+  gap: 0.9rem;
+}
+
+.studentdata_main .form_studentdata .inputs {
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  height: 17rem;
+}
+
+.studentdata_main .form_studentdata .inputs input {
+  font-size: 1rem;
+  text-indent: 0;
+}
+.studentdata_main .form_studentdata .inputs input::placeholder {
+  opacity: 0.6;
+}
+.studentdata_main .form_studentdata .inputs input:focus {
+  background-color: #df146210;
+}
+.studentdata_main .form_studentdata h2 {
+  color: #df1463;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+.studentdata_main .form_studentdata .progress {
+  flex-direction: column;
+  padding: 0 2rem;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.studentdata_main .form_studentdata .progress-status .left {
+  margin-right: auto;
+}
+.studentdata_main .form_studentdata .progress-status .right {
+  cursor: pointer;
+}
+.studentdata_main .form_studentdata .progress-status .left h5 {
+  font-size: 1.2rem;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #ffbbc5;
+}
+.studentdata_main .form_studentdata .progress-status .left span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.studentdata_main .form_studentdata .progress-bar {
+  width: 100%;
+  height: 0.8rem;
+  background-color: rgba(255, 120, 140, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.studentdata_main .form_studentdata .progress-bar span {
+  width: 14.28%;
+  position: absolute;
+  top: 3.2px;
+  left: 3px;
+  height: 0.4rem;
+  align-self: center;
+  background-color: #df1463;
+  border-radius: 10px;
+}
